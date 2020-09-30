@@ -6,6 +6,13 @@
 		<div class="scroller"></div>
 	</div>
 </div>
+<div class="copyright">
+	<p>2020 Thao Dien Green. All rights reserved</p>
+	<ul>
+		<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+	</ul>
+</div>
 <?php wp_footer(); ?>
 
 <!-- END  MESSENGER -->

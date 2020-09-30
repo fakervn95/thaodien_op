@@ -1,4 +1,12 @@
 jQuery(document).ready(function() {
+   
+    $('.play-button').click(function(e) {
+        jQuery(this).fadeOut(1000);
+        jQuery(this).parent().siblings('.bg-video').fadeOut(2000);
+        e.preventDefault(); 
+         $("#VYT")[0].src += "?autoplay=1";
+    });
+
     if(jQuery('.page-template-page-template-trangchu').length>0){
         jQuery('html').addClass('tg_onepage_scroll_page')
     }

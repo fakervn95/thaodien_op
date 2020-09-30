@@ -10,8 +10,17 @@ get_header();
 			<div class="slogan"><span class="text1">.</span><span class="text2">.</span><span class="text3">.</span><span class="text4">.</span></div>
 			<span class="radial-dark">.</span>
 		</div>
-		<div class="section  bg-video">
-			<div class="control-youtube"><a id="Play" class="play-button" aria-label="playbut"></a>. <a id="Pause" class="pause-button" aria-label="pausebut" data-state="pause"></a>.</div>
+		<div class="section home-video">
+			<span class="radial-dark"></span>
+			<div class="box-video-center">
+				<div class="video-youtube-full">
+					<div class="control-youtube"><a class="play-button" id="Play" href="#" aria-label="playbut"></a> </div>
+					<div class="bg-video" style="background-image:url(https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/home/Video-trang-chu.jpg)"></div>
+					<div class="youtube-video" data-embed="https://www.youtube.com/watch?v=wpXvmM17YEY">
+						<iframe id="VYT" src="https://www.youtube.com/embed/wpXvmM17YEY" frameborder="0" allow="autoplay" allowfullscreen="" __idm_id__="482996225"></iframe>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="section home-location">
 			<div class="content-main">
@@ -122,56 +131,24 @@ get_header();
 				</div>
 			</div>
 		</div>
-		<div class="section home-news">
-			<span class="radial-dark"></span>
+
+		<div class="section home-contact">
+			<span class="color-contact-home"></span>
+			<span class="contact-leaves-home"></span>
 			<div class="content-main">
-				<div class="leaves-group leaves-news-1"><span></span> <span></span> <span></span></div>
-				<div class="leaves-group leaves-news-2"><span></span> <span></span> <span></span></div>
-				<div class="slider-news">
-					<div class="item-news-home">
-						<a class="link-load" href="https://3graphic.com.vn/thaodiengreen_code/vi/tin-tuc/lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry.html">
-							<div class="pic-news-home">
-								<div class="pic-img" style="background-image: url(&quot;https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/news/1.jpg&quot;);"><img src="https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/news/1.jpg" alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></div>
-								<div class="date-thumb">22<span>11 -2020</span></div>
-							</div>
-							<div class="txt-news-home">
-								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-							</div>
-						</a>
-					</div>
-					<div class="item-news-home">
-						<a class="link-load" href="https://3graphic.com.vn/thaodiengreen_code/vi/tin-tuc/lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-4.html">
-							<div class="pic-news-home">
-								<div class="pic-img" style="background-image: url(&quot;https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/news/2.jpg&quot;);"><img src="https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/news/2.jpg" alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></div>
-								<div class="date-thumb">20<span>11 -2020</span></div>
-							</div>
-							<div class="txt-news-home">
-								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-							</div>
-						</a>
-					</div>
-					<div class="item-news-home">
-						<a class="link-load" href="https://3graphic.com.vn/thaodiengreen_code/vi/tin-tuc/lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-2.html">
-							<div class="pic-news-home">
-								<div class="pic-img" style="background-image: url(&quot;https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/news/3.jpg&quot;);"><img src="https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/news/3.jpg" alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></div>
-								<div class="date-thumb">12<span>11 -2020</span></div>
-							</div>
-							<div class="txt-news-home">
-								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-							</div>
-						</a>
-					</div>
-					<div class="item-news-home">
-						<a class="link-load" href="https://3graphic.com.vn/thaodiengreen_code/vi/tin-tuc/lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-8.html">
-							<div class="pic-news-home">
-								<div class="pic-img" style="background-image: url(&quot;https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/news/5.jpg&quot;);"><img src="https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/news/5.jpg" alt="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></div>
-								<div class="date-thumb">15<span>09 -2020</span></div>
-							</div>
-							<div class="txt-news-home">
-								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-							</div>
-						</a>
-					</div>
+				<div class="company-text">
+					<div class="item-logo"><img src="https://3graphic.com.vn/thaodiengreen_code/pictures/catalog/contact/1.png" alt="Công ty CP đầu tư BĐS SIC SIC"></div>
+					<ul class="company-info">
+						<li>
+							<p>Số 19 Lê Thanh Nghị, phường Bạch Mai, Quận Hai Bà Trưng, Thành phố Hà Nội</p>
+						</li>
+						<li>
+							<p><a href="tel:0901301616">0901 30 1616</a><a href="tel:0909999880"></a></p>
+						</li>
+						<li>
+							<p><a href="mailto:info@sic.com.vn">info@sic.com.vn</a></p>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
