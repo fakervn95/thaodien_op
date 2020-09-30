@@ -527,7 +527,9 @@ a[data-state=play] {
     top: 0;
     z-index: 1;
 }
-
+[id*="#pg-"], [id*="#pl-"] .so-panel{
+    margin:0px !important;
+}
 
 @media screen and (min-width: 1100px){
 .radial-dark {
