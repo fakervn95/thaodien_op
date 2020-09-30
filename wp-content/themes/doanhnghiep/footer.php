@@ -1,7 +1,11 @@
 <div class="scrolltop">
-		<i class="fa fa-angle-up" aria-hidden="true"></i>	
-	</div>			
-
+	<i class="fa fa-angle-up" aria-hidden="true"></i>	
+</div>			
+<div class="scroll-downs">
+	<div class="mousey">
+		<div class="scroller"></div>
+	</div>
+</div>
 <?php wp_footer(); ?>
 
 <!-- END  MESSENGER -->
